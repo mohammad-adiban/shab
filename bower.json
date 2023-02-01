@@ -1,0 +1,21 @@
+{
+    "name": "shab",
+    "dependencies": {
+      "bootstrap": "~3.3.5",
+      "bootstrap-rtl": "",
+      "font-awesome":"4.6.*",
+      "jquery-ui":"~1.8",
+      "nouislider":"",
+      "gmaps": "",
+      "moment": "",
+      "moment-jalaali":"",
+      "superslides": "",
+      "persian-datepicker": "",
+      "clockpicker": "0.0.7",
+      "cropper": "1.0.0",
+      "jquery-locationpicker-plugin":"0.1.15",
+      "awesome-bootstrap-checkbox": "0.3.7",
+      "EasyAutocomplete": "1.3.5",
+      "slick-carousel":"1.6.0"
+    }
+}
