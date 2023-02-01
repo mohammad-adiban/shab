@@ -1,0 +1,45 @@
+.dashboard {
+    .photo-block {
+        display: block;
+        text-align: center;
+
+        img {
+            max-height: 220px;
+            height: auto;
+            width: 200px;
+            
+            // padding: 3px;
+            opacity: .9;
+        }
+
+        .upload-photo-btn {
+            position: relative;
+            bottom: 0;
+            display: block;
+            white-space: normal;
+            width: 100%;
+            border-radius: 0;
+            border-top: none;
+            border-right: none;
+            border-left: none;
+
+            i {
+                padding: 5px;
+            }
+        }
+    }
+    .invite {
+         &:focus {
+            background-color: lightslategray !important;
+        }
+    }
+    a.btn {
+        white-space: inherit;
+    }
+
+    ul {
+        li {
+            margin-top: 8px;
+        }
+    }
+}

@@ -1,0 +1,110 @@
+.footer_old {
+    background: url(../img/footer.png) repeat;
+    color: darken(#FFF, 8%);
+    display: inline-block;
+    width: 100%;
+margin-bottom: -10px;
+    .container {
+        margin: auto;
+
+        .footer-col {
+            margin-top: 35px;
+        }
+
+        .footer-divider {
+            border-color: rgba(255, 255, 255, 0.3);
+        }
+
+        .language-selector {
+            background-color: #565a5c;
+            border: 0;
+            color: #fff;
+            width: 100%;
+            padding: 8px 10px;
+            height: 39px;
+            margin-top: 9px;
+        }
+
+        .row {
+            margin-bottom: 20px;
+        }
+
+        ul {
+            padding-right: 0;
+
+            li {
+                margin-top: 8px;
+                vertical-align: middle; 
+
+                .footer-icon-container {
+                    border-color: rgba(255, 255, 255, 0.4);
+                    display: block;
+                    height: 45px;
+                    width: 45px;
+                    border-width: 1px;
+                    border-style: solid;
+                    -webkit-border-radius: 50%;
+                    -moz-border-radius: 50%;
+                    border-radius: 50%;
+                    text-align: center;
+
+                    i {
+                        position: relative;
+                        top: 13px;
+                        font-size: 18px;
+                        left: 1px;
+                        color: #FFF;
+                        width: 100%;
+                    }
+
+                    i:hover {
+                        color: darken(#FFF, 20%);
+                    }
+                }
+
+                a {
+                    color: lighten(#aaa, 20%);
+                }
+            }
+        }
+
+        hr {
+            margin-top: 100px;
+        }
+    }
+    .aparat {
+        background-image: url(../img/aparat.svg);
+        background-size: 80%;
+        background-repeat: no-repeat;
+        background-position: center;
+        background-position-x: 4px;
+     //   margin-top: 20px;
+    //    position: absolute;
+        top: 27px;
+    }
+    .telegram {
+        background-image: url(../img/telegram.svg);
+        background-size: 80%;
+        background-repeat: no-repeat;
+        background-position: center;
+        background-position-x: 4px;
+      //  margin-top: 20px;
+    //    position: absolute;
+        top: 27px;
+    }
+    .cpright {
+        color: #82888a;
+        direction: ltr;
+        font-size: 14px;
+        font-family: arial;
+
+    }
+
+    padding-bottom: 30px;
+}
+
+@media (max-width: 992px) {
+    footer .text-left {
+        text-align: center !important;
+    }
+}

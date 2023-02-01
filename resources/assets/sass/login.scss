@@ -1,0 +1,173 @@
+section.login {
+    background-color: #f5f5f5;
+
+    .panel-body {
+        padding: 22px;
+    }
+    .has-error {
+        border-color: darken(red,20%) !important;
+    }
+    .has-error-text {
+        color: darken(red,20%) !important;
+        margin-top: -10px;
+    }
+    input[type="checkbox"], .checkbox-inline input[type="checkbox"] {
+        position: relative;
+    }
+    .panel {
+        border: 1px solid #dce0e0;
+        background-color: #fff;
+        -webkit-border-radius: 0;
+        -moz-border-radius: 0;
+        border-radius: 0;
+    }
+
+    .signup-login-modal {
+        margin: 0 auto;
+        margin-bottom: 50px;
+        max-width: 450px;
+        margin-top: 30px;
+
+        a.btn-google {
+            position: relative;
+            padding-left: 20px;
+            padding-bottom: 20px;
+            padding-top: 20px;
+            font-size: 16px;
+            width: 100%;
+            border-radius: 1px;
+        }
+
+        .icon-google-image {
+            display: block;
+            position: absolute;
+            width: 20px;
+            height: 20px;
+            left: 20px;
+        }
+
+        .signup-or-separator {
+            background: none;
+            height: 42px;
+            position: relative;
+            text-align: center;
+
+            .h6 {
+                font-size: 15px;
+                font-weight: bold;
+                color: #82888a;
+            }
+
+            .separator--text {
+                background-color: #fff;
+                display: inline-block;
+                padding: 8px;
+            }
+
+            hr {
+                margin: -25px auto 10px;
+                width: 100%;
+            }
+        }
+
+        .login-form {
+            .has-error-height {
+               height: auto !important;
+            }
+            .control-group {
+                height: 70px;
+                input {
+                    height: 64px;
+                    font-size: 16px;
+                    width: 100%;    border: 1px solid #ccc;
+                    margin-top: 10px;
+                    padding: 0 10px;
+                }
+
+                i {
+                    position: relative;
+                    left: 42%;
+                    top: -43px;
+                    font-size: 19px;
+                    color: darken(#999, 8%);
+                }
+            }
+
+            .remember-me {
+                float: left;
+                padding-top: 0;
+                padding-bottom: 0;
+                margin-bottom: 15px;
+                span {
+                    margin-left: 28px;
+                }
+                input {
+                    height: 1.25em;
+                    width: 1.25em;
+                    margin-bottom: -0.25em;
+                    margin-left: 0;
+                    vertical-align: top;
+                }
+            }
+
+            .forgot-password {
+                float: right;
+                margin-top: 10px;
+            }
+
+            .btn-login {
+                padding: 20px;
+                border-radius: 1px;
+                border-color: #ff5a5f;
+                border-bottom-color: #e00007;
+                background-color: #ff5a5f;
+                font-size: 16px;
+                color: #fff;
+                margin-top: 1px; 
+				font-weight: 700;
+            }
+        }
+
+        .signup-login {
+            padding-left: 0;
+            padding-right: 0;
+            padding-bottom: 0;
+            border-top: 1px solid #dce0e0;
+            margin-top: 18px;
+
+            .signup-copy {
+                float: left;
+                display: inline-block;
+                margin-right: 4px;
+                line-height: 34px;
+                font-size: 16px;
+            }
+
+            .link-to-signup {
+                border: 1.1px solid #ff5a5f;
+                color: #ff5a5f;
+                float: right;
+                border-radius: 1px;
+				font-weight: 600;
+            }
+        }
+    }
+}
+
+.loginObj { 
+    position: absolute;
+    top: 0;
+    background-color: rgba(0, 0, 0, 0.8) !important;
+    z-index: 9;
+    margin-top: 0;
+    min-height: 700px;
+}
+
+section.pwd_reset {
+    margin-top: 100px;
+    button, button:hover {
+        background-color: #ff5a5f;
+        border-color: darken(#ff5a5f, 10%);
+        border-radius: 4px;
+    }
+}

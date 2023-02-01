@@ -1,0 +1,138 @@
+/* #####################################################################
+   #
+   #   Project       : Modal Login with jQuery Effects
+   #   Author        : Amir Hossein Khosravani
+   #   Version       : 1.0
+   #
+   ##################################################################### */
+html, body {
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  direction: rtl;
+  font-size: 13px;
+  color: #555;
+  background-color: #f8f8f8;
+}
+a {
+  text-decoration: none !important;
+}
+
+
+
+/* #########################################
+   #    Container    #
+   ######################################### */
+.helpGuest-body {
+  max-width: 700px;
+  padding: 10px;
+}
+
+
+
+
+
+/* #########################################
+   #    Items    #
+   ######################################### */
+.helpGuest-item {
+  margin-bottom: 60px;
+  padding: 10px 10px 10px 10px;
+
+}
+.helpGuest-box {
+  background-color: #ffffff;
+  border: 1px solid #eeeeee;
+  border-radius: 5px;
+}
+.helpGuest-item .box {
+  padding: 5px 12px;
+  text-align: center;
+  box-shadow: 0 2px 9.5px 0 rgba(0,0,0,.03);
+  cursor: pointer;
+}
+
+/*
+  ###    Title   ###
+*/
+.helpGuest-item .title-container {
+  display: flex;
+  justify-content: space-between;
+  position: relative;
+  bottom: 35px;
+  margin: 0 7px;
+  z-index: 3;
+  font-size: 16px;
+  font-weight: 700;
+}
+.helpGuest-item .title {
+  width: 100%;
+}
+.helpGuest-item .title > *{
+  font-size: 16px;
+  font-weight: 700;
+}
+.helpGuest-item .number {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #4CAF50;
+  color: #ffffff;
+  margin-left: 6px;
+}
+
+/*
+  ###    Image   ###
+*/
+.helpGuest-item .img-container {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+}
+.helpGuest-item .img-container > div {
+  flex: 1;
+}
+@media (min-width: 767px) {
+  .helpGuest-item .img-container > div {
+    padding: 0 5px;
+  }
+  .helpGuest-item .img-container img{
+    width: 100%;
+  }
+}
+@media (max-width: 767px) {
+  .helpGuest-item .img-container > div > img {
+    width: 100%;
+  }
+  .helpGuest-item .img-container > img{
+    width: 70%;
+    margin: auto;
+  }
+}
+
+/*
+  ###    Text   ###
+*/
+.helpGuest-item .txt {
+  padding: 10px 10px;
+  border-top: 2px solid #eeeeee;
+  text-align: justify;
+}
+.helpGuest-item .txt > a {
+  font-weight: 500;
+  color: #008489;
+}
+
+/*
+  ###    Next Button   ###
+*/
+.helpGuest-item .next-btn {
+  position: relative;
+  text-align: left;
+  font-weight: 500;
+}
+.helpGuest-item .next-btn > a > span {
+  border: none;
+  background-color: #008489;
+  color: #ffffff;
+}

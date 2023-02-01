@@ -1,0 +1,440 @@
+body {
+  font-size: 18px;
+  background: #f8f8f8; }
+
+.card {
+  background: #fff;
+  border: thin solid #d9d9d9;
+  border-top: 3px solid #0faccb;
+  margin-bottom: 18px;
+  padding: 24px 32px; }
+  .card .divider {
+    width: 100%;
+    border: none;
+    border-top: thin solid #d9d9d9; }
+
+.order-summary > div {
+  margin-bottom: 6px; }
+
+.inoivce-summary-container .text-support {
+  font-size: 12px;
+  color: #6b6b6b; }
+
+.order-summary .amount {
+  float: left; }
+
+.gateway-button {
+  display: inline-block;
+  text-align: center; }
+
+.gateway-button label {
+  display: block;
+  vertical-align: middle; }
+
+.payments-container .radio.active {
+  background: #0faccb;
+  border: thin solid #c5c5c5;
+  box-shadow: inset 0 0 4px #fff; }
+
+.payments-container .radio {
+  border: thin solid #c5c5c5;
+  box-shadow: inset 0 0 3px #adadad;
+  border-radius: 50%;
+  display: inline-block;
+  height: 12px;
+  vertical-align: middle;
+  width: 12px; }
+
+.gateway-button img {
+  border: thin solid #e0e0e0;
+  border-radius: 50%;
+  box-shadow: 0 0 3px #dcdcdc;
+  display: inline-block;
+  height: 36px;
+  padding: 4px; }
+
+.gateway-option.active img {
+  border: thin solid #0faccb;
+  box-shadow: 0 0 3px #0faccb; }
+
+.order-summary .date {
+  display: block;
+  margin-top: 6px; }
+
+.payments-container > div {
+  margin-bottom: 6px; }
+
+.payments-container .divider {
+  margin: 16px 0; }
+
+.payments-container .method-name {
+  margin-bottom: 16px; }
+
+.payments-container .method.disabled {
+  opacity: 0.3; }
+
+.actions {
+  text-align: left;
+  margin-bottom: 38px; }
+
+.actions form:not(:last-child) {
+  margin-left: 8px; }
+
+form {
+  display: inline-block; }
+
+.actions form button, .actions form input[type=submit] {
+  background: #aeaeae;
+  border: none;
+  border-radius: 50px;
+  color: #fff;
+  font-size: 17px;
+  font-weight: 500;
+  padding: 8px 32px; }
+
+.actions form[method=POST] button, .actions form[method=POST] input[type=submit] {
+  background: #0faccb; }
+
+.app {
+  margin: auto;
+  margin-bottom: 100px;
+  max-width: 840px; }
+
+.app-header {
+  height: auto;
+  padding: 20px;
+  text-align: center; }
+
+.app-logo {
+  height: 110px; }
+
+.inoivce-details-container .title {
+  display: inline-block;
+  margin-bottom: 14px; }
+
+.inoivce-details-container .table-row {
+  width: 100%;
+  margin: 8px 0; }
+
+.table-row > :last-child {
+  float: left; }
+
+.table-row.table-head {
+  border: thin solid #dadada;
+  border-left: none;
+  border-right: none;
+  line-height: 4.5rem; }
+
+.table-row.table-item {
+  line-height: 2rem;
+  font-size: 1.5rem; }
+
+.table-row.table-summary {
+  font-size: 14px; }
+
+.table-row > :first-child {
+  min-width: 42px; }
+
+.table-row > .text-support {
+  color: #909090; }
+
+.table-row > * {
+  display: inline-block;
+  vertical-align: middle; }
+
+@media (max-width: 768px) {
+  body {
+    margin-bottom: 75px; }
+
+  .actions form {
+    width: 50%; }
+
+  .actions form:not(:last-child) {
+    margin: 0; }
+
+  form {
+    background: #fff;
+    float: right; }
+
+  .actions {
+    bottom: 0;
+    box-shadow: 0 0 8px #a2a2a2;
+    margin: 10px -15px 0;
+    position: fixed;
+    width: 100%;
+    z-index: 10; }
+
+  .actions form button, .actions form button.outline, .actions form input[type=submit] {
+    border-radius: 0;
+    height: 64px;
+    width: 100%;
+    border-left: none;
+    border-right: none;
+    padding: 0; } }
+@media (min-width: 768px) {
+  .order-summary .date {
+    float: left; } }
+
+/*# sourceMappingURL=main.css.map */
+
+body {
+  font-size: 18px;
+  background: #f8f8f8; }
+
+.card {
+  background: #fff;
+  border: thin solid #d9d9d9;
+  border-top: 3px solid #0faccb;
+  margin-bottom: 18px;
+  padding: 24px 32px; }
+  .card .divider {
+    width: 100%;
+    border: none;
+    border-top: thin solid #d9d9d9; }
+
+.order-summary > div {
+  margin-bottom: 6px; }
+
+.inoivce-summary-container .text-support {
+  font-size: 12px;
+  color: #6b6b6b; }
+
+.order-summary .amount {
+  float: left; }
+
+.gateway-button {
+  display: inline-block;
+  text-align: center; }
+
+.gateway-button label {
+  display: block;
+  vertical-align: middle; }
+
+.payments-container .radio.active {
+  background: #0faccb;
+  border: thin solid #c5c5c5;
+  box-shadow: inset 0 0 4px #fff; }
+
+.payments-container .radio {
+  border: thin solid #c5c5c5;
+  box-shadow: inset 0 0 3px #adadad;
+  border-radius: 50%;
+  display: inline-block;
+  height: 12px;
+  vertical-align: middle;
+  width: 12px; }
+
+.gateway-button img {
+  border: thin solid #e0e0e0;
+  border-radius: 50%;
+  box-shadow: 0 0 3px #dcdcdc;
+  display: inline-block;
+  height: 36px;
+  padding: 4px; }
+
+.gateway-option.active img {
+  border: thin solid #0faccb;
+  box-shadow: 0 0 3px #0faccb; }
+
+.order-summary .date {
+  display: block;
+  margin-top: 6px; }
+
+.payments-container > div {
+  margin-bottom: 6px; }
+
+.payments-container .divider {
+  margin: 16px 0; }
+
+.payments-container .method-name {
+  margin-bottom: 16px; }
+
+.payments-container .method.disabled {
+  opacity: 0.3; }
+
+.actions {
+  text-align: left;
+  margin-bottom: 38px; }
+
+.actions form:not(:last-child) {
+  margin-left: 8px; }
+
+form {
+  display: inline-block; }
+
+.actions form button, .actions form input[type=submit], button[type=button] {
+  background: #aeaeae;
+  border: none;
+  border-radius: 50px;
+  color: #fff;
+  font-size: 17px;
+  font-weight: 500;
+  padding: 8px 32px;
+  outline: none;
+}
+
+.actions form[method=POST] button, .actions form[method=POST] input[type=submit] {
+  background: #0faccb; }
+
+.flash {
+  background: rgba(33, 150, 243, 0.6);
+  color: #fff;
+  border: thin solid #2196f3;
+  border-radius: 4px;
+  margin-bottom: 16px;
+  padding: 8px 12px; }
+
+.flash.error {
+  background: rgba(233, 30, 30, 0.6);
+  border-color: #e91e1e; }
+
+.flash.success {
+  background: #4CAF50;
+  border-color: #64ab15; }
+
+.app {
+  margin: auto;
+  margin-bottom: 100px;
+  max-width: 840px; }
+
+.app-header {
+  height: auto;
+  padding: 20px;
+  text-align: center; }
+
+.app-logo {
+  height: 110px; }
+
+.inoivce-details-container .title {
+  display: inline-block;
+  margin-bottom: 14px; }
+
+.inoivce-details-container .table-row {
+  width: 100%;
+  margin: 8px 0; }
+
+.table-row > :last-child {
+  float: left; }
+
+.table-row.table-head {
+  border: thin solid #dadada;
+  border-left: none;
+  border-right: none;
+  line-height: 4.5rem; }
+
+.table-row.table-item {
+  line-height: 2rem;
+  font-size: 1.5rem; }
+
+.table-row.table-summary {
+  font-size: 14px; }
+
+.table-row > :first-child {
+  min-width: 42px; }
+
+.table-row > .text-support {
+  color: #909090; }
+
+.table-row > * {
+  display: inline-block;
+  vertical-align: middle; }
+
+#stayinpage {
+  background-color: #fff;
+  color: #0faccb; }
+
+.countdown {
+  float: right;
+  position: relative;
+  padding: 8px 32px; }
+
+.countdown-number {
+  color: #000;
+  display: inline-block;
+  line-height: 25px;
+  position: absolute;
+  z-index: 99999;
+  right: 15px; }
+
+.countdown-text {
+  margin-right: 15px; }
+
+svg {
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 40px;
+  height: 40px;
+  transform: rotateY(-180deg) rotateZ(-90deg); }
+
+svg circle {
+  stroke-dasharray: 113px;
+  stroke-dashoffset: 0px;
+  stroke-linecap: round;
+  stroke-width: 2px;
+  stroke: #0faccb;
+  fill: #fff;
+  animation: countdown 11s linear forwards; }
+
+@keyframes countdown {
+  from {
+    stroke-dashoffset: 0px; }
+  to {
+    stroke-dashoffset: 113px; } }
+@media (max-width: 768px) {
+  body {
+    margin-bottom: 200px;
+    font-size: 14px; }
+
+  .actions form {
+    width: 100%; }
+
+  .actions form:not(:last-child) {
+    margin: 0; }
+
+  form {
+    background: #fff;
+    float: right; }
+
+  .actions {
+    bottom: 0;
+    box-shadow: 0 0 8px #a2a2a2;
+    margin: 10px -15px 0;
+    position: fixed;
+    width: 100%;
+    z-index: 10;
+    text-align: right; }
+
+  .actions form button, .actions form button.outline, .actions form input[type=submit] {
+    border-radius: 0;
+    height: 64px;
+    width: 100%;
+    border-left: none;
+    border-right: none;
+    padding: 0; }
+
+  .countdown {
+    width: 100%;
+    background: #fff;
+    border-bottom: 1px solid #0faccb;
+    padding: 16px 32px; }
+
+  .countdown-number {
+    right: 35px; }
+
+  .countdown-text {
+    margin-right: 35px;
+    font-size: 15px; }
+
+  svg {
+    top: 10px;
+    right: 20px; }
+
+  svg circle {
+    fill: #f2f3f4; } }
+@media (min-width: 768px) {
+  .order-summary .date {
+    float: left; } }
+
+/*# sourceMappingURL=main.css.map */
+

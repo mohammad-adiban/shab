@@ -1,0 +1,214 @@
+/* #####################################################################
+   #
+   #   Project       : Modal Login with jQuery Effects
+   #   Author        : Amir Hossein Khosravani
+   #   Version       : 1.0
+   #
+   ##################################################################### */
+
+
+:root {
+  --clendar-mainColor: #0060af
+}
+
+
+
+/* #########################################
+   #    override the bootstrap configs     #
+   ######################################### */
+
+
+
+
+/* #########################################
+   #   Tooltip calendar style    #
+   ######################################### */
+
+.calendar-container {
+  visibility: visible;
+  width: 100%;
+  background-color: #ffffff;
+  color: #000;
+  text-align: center;
+  z-index: 1;
+}
+
+
+.calendar-content > div {
+  margin-top: 8px;
+}
+/* #########################################
+   #   Header of calendar style    #
+   ######################################### */
+
+.calendar-header > div {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.calendar-header > .calendar-arrival-departure-date {
+  justify-content: center;
+}
+.calendar-change-month {
+  padding: 5px;
+  border: 1px solid #b4b4b4;
+}
+.calendar-change-month > span {
+  top: 0;
+}
+.calendar-arrival-departure-date > div{
+  margin: 0 14px;
+  font-size: 14px;
+  font-weight: 500;
+}
+.calendar-arrival-departure-date > div.active{
+  padding: 4px;
+  background-color: #1b6d85;
+  color: #fff;
+  border-radius: 5px;
+}
+
+#calendar-arrival-date {
+
+}
+
+
+
+
+/* #########################################
+   #   Body of calendar style    #
+   ######################################### */
+.calendar-body {
+
+}
+.calendar-day-row {
+  display: flex;
+  justify-content: space-between;
+  margin: 1px 0;
+}
+.calendar-day-row > span {
+  width: 100%;
+  margin: 0 1px;
+  border-radius: 5px;
+  text-align: center;
+  font-size: 14.5px;
+}
+.calendar-day-row#daysOfWeek {
+  margin-bottom: 8px;
+}
+.calendar-day-row#daysOfWeek > span {
+  font-size: 13px;
+}
+.calendar-day-row .calendar-day-item {
+  border: 1px solid #b4b4b4;
+  color: #000;
+  cursor: pointer;
+}
+.calendar-day-row .calendar-day-noItem {
+  padding: 0 1px;
+}
+.calendar-day-item-price {
+  font-size: 11px;
+  font-weight: 100;
+}
+.calendar-day-row .calendar-day-today {
+  border: 2px solid #1b6d85;
+}
+.calendar-day-row .calendar-day-past {
+  background-color: #dcdcdc;
+  color: #fff;
+  cursor: default;
+}
+.calendar-day-row .calendar-day-past > .calendar-day-item-date {
+  text-decoration: line-through;
+}
+.calendar-day-row .calendar-day-minDisable, .calendar-day-disable {
+  background-color: #eee;
+}
+.calendar-day-row .calendar-day-item-active {
+  background-color: #1b6d85 !important;
+  color: #fff !important;
+  box-shadow: 0 1px 5px rgba(0, 0, 0, 0.1) !important;
+}
+.calendar-day-row .calendar-day-item-hover {
+  background-color: rgba(27, 109, 133, 0.12);
+  color: #000;
+}
+
+
+.calendar-price-tip {
+  text-align: right;
+  font-size: 11px;
+  font-weight: 500;
+  color: #d43f3a;
+
+}
+
+/* #########################################
+   #   Footer of calendar style    #
+   ######################################### */
+.calendar-footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.calendar-reset-btn {
+  color: #41bee2;
+  cursor: pointer;
+  font-size: 12px;
+  font-weight: 500;
+}
+.calendar-footer > .calendar-bookedDays {
+  font-size: 13px;
+  font-weight: 500;
+}
+
+
+
+
+
+
+
+
+
+/* #########################################
+   #    Loading with Animation   #
+   ######################################### */
+.spinner {
+  width: 100%;
+  margin-top: 3px;
+  padding: 20px 0;
+  text-align: center;
+}
+.spinner > div {
+  width: 13px;
+  height: 13px;
+  background-color: #1b6d85;
+
+  border-radius: 100%;
+  display: inline-block;
+  -webkit-animation: sk-bouncedelay 1.4s infinite ease-in-out both;
+  animation: sk-bouncedelay 1.4s infinite ease-in-out both;
+}
+.spinner .bounce1 {
+  -webkit-animation-delay: -0.32s;
+  animation-delay: -0.32s;
+}
+.spinner .bounce2 {
+  -webkit-animation-delay: -0.16s;
+  animation-delay: -0.16s;
+}
+@-webkit-keyframes sk-bouncedelay {
+  0%, 80%, 100% { -webkit-transform: scale(0) }
+  40% { -webkit-transform: scale(1.0) }
+}
+@keyframes sk-bouncedelay {
+  0%, 80%, 100% {
+    -webkit-transform: scale(0);
+    transform: scale(0);
+  } 40% {
+      -webkit-transform: scale(1.0);
+      transform: scale(1.0);
+    }
+}
